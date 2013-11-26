@@ -3,7 +3,7 @@
 Summary:	PNG support for Tcl/Tk
 Name:		tcl-%{oname}
 Version:	0.9
-Release:	1
+Release:	2
 License:	TCL
 Group:		System/Libraries
 Url:		http://www.muonics.com/FreeStuff/TkPNG/
@@ -46,5 +46,5 @@ find . -perm 0640 | xargs chmod 0644
 install -d %{buildroot}%{tcl_sitearch}
 mv %{buildroot}%{_libdir}/%{oname}%{version} %{buildroot}%{tcl_sitearch}/%{oname}%{version}
 
-ln -s tcl%{tcl_version}/%{name}%{version}/lib%{name}%{version}.so %{buildroot}%{_libdir}/lib%{name}%{version}.so
+ln -s tcl%{tcl_version}/%{oname}%{version}/lib%{oname}%{version}.so %{buildroot}%{_libdir}/lib%{oname}%{version}.so
 
