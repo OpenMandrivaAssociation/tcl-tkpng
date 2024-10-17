@@ -6,7 +6,7 @@ Version:	0.9
 Release:	2
 License:	TCL
 Group:		System/Libraries
-Url:		http://www.muonics.com/FreeStuff/TkPNG/
+Url:		https://www.muonics.com/FreeStuff/TkPNG/
 Source0:	http://downloads.sourceforge.net/tkpng/%{oname}%{version}.tgz
 Provides:	%{oname} = %{EVRD}
 BuildRequires:	tcl-devel
