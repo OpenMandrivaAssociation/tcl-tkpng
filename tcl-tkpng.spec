@@ -9,6 +9,11 @@ Group:		System/Libraries
 Url:		https://www.muonics.com/FreeStuff/TkPNG/
 Source0:	http://downloads.sourceforge.net/tkpng/%{oname}%{version}.tgz
 Provides:	%{oname} = %{EVRD}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	tcl-devel
 BuildRequires:	pkgconfig(tk)
 BuildRequires:	pkgconfig(zlib)
